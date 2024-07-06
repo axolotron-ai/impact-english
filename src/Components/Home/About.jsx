@@ -44,7 +44,7 @@ const About = () => {
               <div className="">
                 <h1 className="lg:text-4xl text-3xl font-bold max-w-[400px] montserrat">
                   Join our community of Achievers{" "}
-                  <span className="bg-gradient-to-tr from-green-600 to-green-950 bg-clip-text text-transparent ">
+                  <span className="bg-gradient-to-r from-green-600 to-green-950 bg-clip-text inline-block text-transparent ">
                     Today!
                   </span>
                 </h1>

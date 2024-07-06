@@ -1,11 +1,14 @@
 "use client"
 
-import React from "react";
+import React, { useState } from "react";
 import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { motion } from "framer-motion";
 const Contact = () => {
+
+
+  const [name,setName] = useState()
   return (
     <div className="min-h-[100vh] flex items-center overflow-hidden">
       <main className="grid lg:grid-cols-5">
