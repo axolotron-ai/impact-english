@@ -1,10 +1,25 @@
 "use client"
-import React from "react";
+import React, { useState } from "react";
 import { FaArrowRight } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { motion } from "framer-motion";
 import { FaLongArrowAltRight } from "react-icons/fa";
 const Faq = () => {
+
+  const [question,setQuestion] = useState("")
+
+  const handleSubmit = async() => {
+    try{
+      const res= await axios.post("",{
+        question
+      })
+      console.log(res.data)
+    }
+    catch(err){
+      console.error(err)
+    }
+  }
+
   return (
     <div className="lg:p-10 p-[30px]">
       <main>
@@ -212,12 +227,14 @@ const Faq = () => {
                 <p>Ask anything you want to know about Impact English</p>
               </div>
               <div className="flex justify-center">
-                <form action="" className="pt-5">
+                <form action="" className="pt-5" onSubmit={handleSubmit}>
                   <div className="w-full flex items-center">
                     <input
                       type="text"
                       name=""
                       id=""
+                      required
+                      onChange={(e)=>setQuestion(e.target.value)}
                       className="border-2 border-zinc-400 lg:min-w-[400px] min-w-[300px] rounded-md focus:outline-none p-2 drop-shadow-2xl bg-white pr-[40px]"
                     />
                     <FaLongArrowAltRight className="ml-[-30px] text-2x text-gray-600 relative z-[4]" />

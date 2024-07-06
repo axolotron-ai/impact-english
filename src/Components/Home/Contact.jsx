@@ -8,7 +8,20 @@ import { motion } from "framer-motion";
 const Contact = () => {
 
 
-  const [name,setName] = useState()
+  const [name,setName] = useState("");
+  const [email,setEmail] = useState("")
+  const [phone,setPhone] = useState(0)
+
+  const handleSubmit = async() => {
+    try {
+      const res = await axios.post("",{
+        name,email,phone
+      })
+      console.log(res.data)
+    } catch (error) {
+      console.log(error)
+    }}
+
   return (
     <div className="min-h-[100vh] flex items-center overflow-hidden">
       <main className="grid lg:grid-cols-5">
@@ -100,6 +113,8 @@ const Contact = () => {
                 type="text"
                 name=""
                 id=""
+                required
+                onChange={(e)=>setName(e.target.value)}
                 placeholder="Full Name"
                 className="rounded-md bg-white placeholder:text-zinc-400 focus:outline-none shadow-md w-full lg:p-3 p-2 pl-5"
               />
@@ -107,6 +122,8 @@ const Contact = () => {
                 type="email"
                 name=""
                 id=""
+                required
+                onChange={(e)=>setEmail(e.target.value)}
                 placeholder="Email Address"
                 className="rounded-md bg-white placeholder:text-zinc-400 focus:outline-none shadow-md w-full lg:p-3 p-2 pl-5"
               />
@@ -114,6 +131,8 @@ const Contact = () => {
                 type="tel"
                 name=""
                 id=""
+                required
+                onChange={(e)=>setPhone(e.target.value)}
                 placeholder="Phone Number"
                 className="rounded-md bg-white placeholder:text-zinc-400 focus:outline-none shadow-md w-full lg:p-3 p-2 pl-5"
               />

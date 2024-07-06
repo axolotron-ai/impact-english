@@ -99,7 +99,7 @@ const Navbar = () => {
             </h1>
           </section>
           <section className="montserrat px-[50px]">
-            <h1 className=" bg-gradient-to-r from-blue-800 to-black bg-clip-text text-3xl text-center">
+            <h1 className=" text-3xl text-center">
               Menu
             </h1>
             <div className="pt-10 grid gap-6">
