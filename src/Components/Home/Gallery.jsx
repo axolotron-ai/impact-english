@@ -19,7 +19,7 @@ const Gallery = () => {
               We have helped hundreds of students achieve 7+ Band Score through
               our dedicated efforts
             </h1>
-            <p className="text-white text-xl font-extralight px-7">
+            <p className="text-white text-[17px] font-extralight px-7">
               most attaining their desired score on their first attempt. As
               proud official partners of IDP, we provide authentic and reliable
               support. Our outstanding results and maximum success rate set us

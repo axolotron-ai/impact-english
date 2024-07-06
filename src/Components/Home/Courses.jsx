@@ -30,8 +30,8 @@ const Courses = () => {
             className="flex items-center relative z-[2]"
           >
             <section className="grid gap-5 pt-5 lg:pt-0">
-              <h1 className="text-3xl font-bold ">IELTS General Training</h1>
-              <p className="text-[20px]">
+              <h1 className="lg:text-3xl text-2xl font-bold ">IELTS General Training</h1>
+              <p className="text-[17px] lg:text-[20px]">
                 IELTS General Training is for you if you wish to migrate and
                 work abroad in an English-speaking country. It focuses mainly on
                 assessing your proficiency, confidence, and comfort when
@@ -57,8 +57,8 @@ const Courses = () => {
             className="flex items-center order-2 lg:order-1 relative z-[2] "
           >
             <section className="grid gap-5">
-              <h1 className="text-3xl font-bold ">IELTS Academic Traning</h1>
-              <p className="text-[20px]">
+              <h1 className="lg:text-3xl text-2xl font-bold ">IELTS Academic Traning</h1>
+              <p className="text-[17px] lg:text-[20px]">
                 IELTS Academic is for pursuing higher education overseas.It
                 assesses your readiness to use English as a medium of study.This
                 test demonstrates your proficiency to universities and
@@ -114,8 +114,8 @@ const Courses = () => {
             whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
             transition={{ type: "spring", stiffness: 200, damping: 50 }} className="flex items-center relativez-[2]">
             <section className="grid gap-5">
-              <h1 className="text-3xl font-bold ">Spoken English course</h1>
-              <p className="text-[20px]">
+              <h1 className="lg:text-3xl text-2xl font-bold ">Spoken English course</h1>
+              <p className="text-[17px] lg:text-[20px]">
                 Our spoken English course is ideal for beginners, offering
                 lessons in situational speaking and different accents.Tailored
                 resources fill gaps in grammar and enhance vocabulary.Gain the
