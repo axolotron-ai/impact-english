@@ -1,0 +1,70 @@
+"use client";
+import Link from "next/link";
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+const Gallery = () => {
+  const [show, setShow] = useState(false);
+
+  return (
+    <div className="overflow-hidden">
+      <div className={show ? "hidden" : "bg-black"}>
+        <main className="gallerymain min-h-[100vh] flex justify-center items-center">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9, x: 0, y: -100 }}
+            whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+            transition={{ type: "spring", stiffness: 200, damping: 50 }}
+            className="max-w-[500px] text-center grid gap-5 lg:p-0 px-5"
+          >
+            <h1 className="font-bold text-white lg:text-3xl text-2xl">
+              We have helped hundreds of students achieve 7+ Band Score through
+              our dedicated efforts
+            </h1>
+            <p className="text-white text-xl font-extralight px-7">
+              most attaining their desired score on their first attempt. As
+              proud official partners of IDP, we provide authentic and reliable
+              support. Our outstanding results and maximum success rate set us
+              apart from any other IELTS institution.
+            </p>
+            <div
+              className=" w-full rounded-xl py-2 text-black font-bold bg-green-400"
+              onClick={() => setShow(true)}
+            >
+              <h1>View Gallery</h1>
+            </div>
+          </motion.div>
+        </main>
+      </div>
+      <main className={show ? "lg:flex hidden overflow-hidden" : "hidden"}>
+        <motion.div
+          key={show}
+          initial={{ opacity: 0, scale: 3, x: 0, y: 0 }}
+          animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+          transition={{ type: "spring", stiffness: 200, damping: 50 }}
+        >
+          <img src="/gallerylgbg.png" alt="" />
+        </motion.div>
+      </main>
+      <main
+        className={show ? "lg:hidden overflow-scroll gap-2 flex p-2" : "hidden"}
+      >
+        <img src="/g1.png" alt="" className="h-[200px]" />
+        <img src="/g2.png" alt="" className="h-[200px]" />
+        <img src="/g3.png" alt="" className="h-[200px]" />
+        <img src="/g4.png" alt="" className="h-[200px]" />
+        <img src="/g5.png" alt="" className="h-[200px]" />
+        <img src="/g6.png" alt="" className="h-[200px]" />
+        <img src="/g7.png" alt="" className="h-[200px]" />
+        <img src="/g8.png" alt="" className="h-[200px]" />
+        <img src="/g9.png" alt="" className="h-[200px]" />
+        <img src="/g10.png" alt="" className="h-[200px]" />
+        <img src="/g11.png" alt="" className="h-[200px]" />
+        <img src="/g12.png" alt="" className="h-[200px]" />
+        <img src="/g13.png" alt="" className="h-[200px]" />
+        <img src="/g14.png" alt="" className="h-[200px]" />
+        <img src="/g15.png" alt="" className="h-[200px]" />
+      </main>
+    </div>
+  );
+};
+
+export default Gallery;
