@@ -250,7 +250,7 @@ const IeltsGeneralTraining = () => {
                       <p className="w-4 h-4 bg-green-400 text-center rounded-full"></p>
                     </div>
                     <h1 className="text-2xl font-bold text-green-400 pt-2  pb-2">
-                      Month 2
+                      Month 3
                     </h1>
                   </div>
                 </div>

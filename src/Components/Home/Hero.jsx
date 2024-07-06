@@ -56,7 +56,7 @@ const Hero = () => {
                   </div>
                   <div className="">
                     <h1 className="font-bold">Gehna Bulani</h1>
-                    <p className="opacity-60">TEFL Certified Teacher</p>
+                    <p className="opacity-60">IELTS / TEFL Certified Teacher</p>
                   </div>
                 </div>
               </motion.div>
@@ -115,7 +115,7 @@ const Hero = () => {
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">SPOKEN IELTS</h1>
+                <h1 className="font-bold text-2xl montserrat">SPOKEN ENGLISH</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
@@ -129,7 +129,7 @@ const Hero = () => {
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">SPOKEN IELTS</h1>
+                <h1 className="font-bold text-2xl montserrat">SPOKEN ENGLISH</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
@@ -143,7 +143,7 @@ const Hero = () => {
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">SPOKEN IELTS</h1>
+                <h1 className="font-bold text-2xl montserrat">SPOKEN ENGLISH</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
             </Marquee>

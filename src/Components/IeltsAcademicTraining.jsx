@@ -1,7 +1,23 @@
+"use client"
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const IeltsAcademicTraining = () => {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    const Script = document.createElement("script");
+    //id should be same as given to form element
+    const Form = document.getElementById("donateForm");
+    Script.setAttribute(
+      "src",
+      "https://checkout.razorpay.com/v1/payment-button.js"
+    );
+    Script.setAttribute("data-payment_button_id", "pl_OVMsYQXAop9qIG");
+    if (Form) {
+      Form.appendChild(Script);
+    }
+  }, [mounted]);
   return (
     <div className="lg:px-20 px-10 py-20 paper bg-cover">
       <main>
@@ -248,7 +264,7 @@ const IeltsAcademicTraining = () => {
                       <p className="w-4 h-4 bg-green-400 text-center rounded-full"></p>
                     </div>
                     <h1 className="text-2xl font-bold text-green-400 pt-2  pb-2">
-                      Month 2
+                      Month 3
                     </h1>
                   </div>
                 </div>
@@ -319,13 +335,21 @@ const IeltsAcademicTraining = () => {
                 </div>
               </section>
               <div className="mt-10">
-                <Link
+                {/* <Link
                   href={"/courses/ielts-academic-training/payment"}
                   className="w-fit pl-5 pr-5 py-2 bg-green-400 shadow-md rounded-md text-xl font-bold shadow-black"
                 >
                   Enroll Now
-                </Link>
+                </Link> */}
               </div>
+              <div className="">
+                {
+                  mounted ? <form id="donateForm">
+                    
+                  </form> : null
+                }
+              </div>
+              
             </div>
           </section>
         </section>
