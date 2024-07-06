@@ -20,7 +20,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-one"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>What is IELTS ?</h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">What is IELTS ?</h1>
                       <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
                     </div>
                   </button>
@@ -44,7 +44,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-two"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>Can I prebook my IELTS test?</h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">Can I prebook my IELTS test?</h1>
                       <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
                     </div>
                   </button>
@@ -66,7 +66,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-two"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">
                         What level of English proficiency is recommended to take
                         the IELTS test?
                       </h1>
@@ -93,7 +93,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-two"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>Can I get a refund for my fees?</h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">Can I get a refund for my fees?</h1>
                       <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
                     </div>
                   </button>
@@ -114,7 +114,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-two"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>Why choose IMPACT ENGLISH ?</h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">Why choose IMPACT ENGLISH ?</h1>
                       <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
                     </div>
                   </button>
@@ -139,7 +139,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-two"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>Should I take IELTS test?</h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">Should I take IELTS test?</h1>
                       <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
                     </div>
                   </button>
@@ -163,7 +163,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-two"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>How long is my IELTS test valid?</h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">How long is my IELTS test valid?</h1>
                       <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
                     </div>
                   </button>
@@ -184,7 +184,7 @@ const Faq = () => {
                     aria-controls="hs-basic-collapse-two"
                   >
                     <div className="flex justify-between w-full">
-                      <h1>Which IELTS course should I choose as a student?</h1>
+                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">Which IELTS course should I choose as a student?</h1>
                       <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
                     </div>
                   </button>
