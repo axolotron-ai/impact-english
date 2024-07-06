@@ -219,7 +219,6 @@ const Faq = () => {
                       id=""
                       className="border-2 border-zinc-400 lg:min-w-[400px] min-w-[300px] rounded-md focus:outline-none p-2 drop-shadow-2xl bg-white"
                     />
-                    {/* <FaArrowRight className='ml-[-100px]'/> */}
                   </div>
                   <div className="flex justify-center">
                     <input
