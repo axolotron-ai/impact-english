@@ -12,7 +12,7 @@ const About = () => {
           transition={{ type: "spring", stiffness: 200, damping: 50 }}
           className="flex justify-center"
         >
-          <h1 className="text-center lg:text-2xl text-xl px-10 lg:p-0 max-w-[880px]">
+          <h1 className="text-center lg:text-2xl text-[17px] px-10 lg:p-0 max-w-[880px]">
             "Impact English is the most sought after class in Kalyan, Mumbai for
             English proficiency & IELTS training.Highly effective training
             methodologies & resources conducive to the standards of

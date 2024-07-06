@@ -202,7 +202,7 @@ const Faq = () => {
             </div>
             <div className="pt-10 lg:pt-0">
               <div className="flex justify-center">
-                <img src="/faqimg.png" alt="" className="lg:w-[400px] m-auto" />
+                <img src="/faqimage.png" alt="" className="lg:w-[400px] m-auto" />
               </div>
               <div className="text-center pt-5">
                 <h1 className="text-2xl font-bold montserrat">
