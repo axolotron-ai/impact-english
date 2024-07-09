@@ -4,13 +4,15 @@ import { FaArrowRight } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import { motion } from "framer-motion";
 import { FaLongArrowAltRight } from "react-icons/fa";
+import axios from "axios";
 const Faq = () => {
 
   const [question,setQuestion] = useState("")
 
-  const handleSubmit = async() => {
+  const handleSubmit = async(e) => {
+    e.preventDefault();
     try{
-      const res= await axios.post("",{
+      const res= await axios.post("/api/send-faq",{
         question
       })
       console.log(res.data)
@@ -149,30 +151,7 @@ const Faq = () => {
                     </p>
                   </div>
                 </div>
-                <div class="hs-accordion" id="hs-basic-heading-two">
-                  <button
-                    class="hs-accordion-toggle shadow-md px-5 hs-accordion-active:text-green-400 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400"
-                    aria-controls="hs-basic-collapse-two"
-                  >
-                    <div className="flex justify-between w-full">
-                      <h1 className="max-w-[280px] md:max-w-[400px] lg:max-w-[500px]">Should I take IELTS test?</h1>
-                      <IoIosArrowDown className="bg-green-400 rounded-full text-2xl text-black" />
-                    </div>
-                  </button>
-                  <div
-                    id="hs-basic-collapse-two"
-                    class="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300 border rounded-xl shadow-md "
-                    aria-labelledby="hs-basic-heading-two"
-                  >
-                    <p class="text-gray-800 dark:text-neutral-200 p-5">
-                      It is advisable to check the specific language
-                      proficiency requirements with the employer or the job
-                      posting before taking the IELTS test. IELTS is commonly
-                      used as a measure of English proficiency for academic and
-                      professional purposes, including vocational training.{" "}
-                    </p>
-                  </div>
-                </div>
+                
                 <div class="hs-accordion" id="hs-basic-heading-two">
                   <button
                     class="hs-accordion-toggle shadow-md px-5 hs-accordion-active:text-green-400 py-3 inline-flex items-center gap-x-3 w-full font-semibold text-start text-gray-800 hover:text-gray-500 rounded-lg disabled:opacity-50 disabled:pointer-events-none dark:hs-accordion-active:text-blue-500 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:outline-none dark:focus:text-neutral-400"
@@ -243,7 +222,7 @@ const Faq = () => {
                     <input
                       type="submit"
                       value="Send"
-                      className="bg-green-300 shadow-md shadow-black px-7 py-1 font-bold mt-5 rounded-md"
+                      className="bg-green-400 shadow-md shadow-black px-7 py-1 font-bold mt-5 rounded-md"
                     />
                   </div>
                 </form>

@@ -5,6 +5,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 import { FaLocationDot } from "react-icons/fa6";
 import { motion } from "framer-motion";
+import axios from "axios";
 const Contact = () => {
 
 
@@ -12,9 +13,10 @@ const Contact = () => {
   const [email,setEmail] = useState("")
   const [phone,setPhone] = useState(0)
 
-  const handleSubmit = async() => {
+  const handleSubmit = async(e) => {
+    e.preventDefault();
     try {
-      const res = await axios.post("",{
+      const res = await axios.post("/api/send-mail",{
         name,email,phone
       })
       console.log(res.data)
@@ -108,6 +110,7 @@ const Contact = () => {
             <form
               action=""
               className="grid lg:gap-8 gap-5 w-[250px] lg:w-[500px] pl-5 rotate-[2deg] lg:rotate-[3.5deg]"
+              onSubmit={handleSubmit}
             >
               <input
                 type="text"
@@ -139,7 +142,7 @@ const Contact = () => {
               <input
                 type="submit"
                 value="Send"
-                className="rounded-md text-white bg-green-300 focus:outline-none shadow-md w-full lg:p-3 p-2"
+                className="rounded-md text-white bg-green-400 focus:outline-none shadow-md w-full lg:p-3 p-2"
               />
             </form>
           </div>

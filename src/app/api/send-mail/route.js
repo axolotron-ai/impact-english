@@ -1,38 +1,43 @@
 // app/api/sendEmail/route.js
 
-import nodemailer from 'nodemailer';
+import nodemailer from "nodemailer";
 
 export async function POST(req) {
-  const { name, email, message } = await req.json();
+  const { name, email, phone } = await req.json();
 
   // Create a Nodemailer transporter using SMTP
   const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: process.env.SMTP_PORT,
-    secure: false, // true for 465, false for other ports
+    // true for 465, false for other ports
+    service: "gmail",
     auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
+      user: "wedyftesting@gmail.com",
+      pass: "upys jmwe nbga kdul",
     },
   });
 
   // Email options
   const mailOptions = {
-    from: process.env.SMTP_USER,
-    to: process.env.RECIPIENT_EMAIL,
-    subject: 'New Message from Contact Form',
-    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
+    from: 'wedyftesting@gmail.com',
+    to: 'sebe2k04@gmail.com',
+    subject: "New Consultation Request",
+    text: `Name: ${name}\nEmail: ${email}\nPhone Number: ${phone}`,
   };
 
   try {
     await transporter.sendMail(mailOptions);
-    return new Response(JSON.stringify({ message: 'Email sent successfully' }), {
-      status: 200,
-    });
+    return new Response(
+      JSON.stringify({ message: "Email sent successfully" }),
+      {
+        status: 200,
+      }
+    );
   } catch (error) {
     console.error(error);
-    return new Response(JSON.stringify({ message: 'Error sending email', error }), {
-      status: 500,
-    });
+    return new Response(
+      JSON.stringify({ message: "Error sending email", error }),
+      {
+        status: 500,
+      }
+    );
   }
 }

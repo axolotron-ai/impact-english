@@ -3,6 +3,7 @@ import React from "react";
 import Marquee from "react-fast-marquee";
 import CountUp from "react-countup";
 import { motion } from "framer-motion";
+import Link from "next/link";
 const Hero = () => {
   return (
     <div className="">
@@ -34,7 +35,7 @@ const Hero = () => {
                     href="/#about"
                     className="px-4 py-2 rounded-xl border-2 border-black text-xl font-semibold hover:shadow-md hover:bg-green-400 hover:text-white duration-100 hover:border-none"
                   >
-                    Learn More
+                    Achieve 7 Band score
                   </a>
                 </div>
               </motion.div>
@@ -46,18 +47,22 @@ const Hero = () => {
                 transition={{ type: "spring", stiffness: 200, damping: 50 }}
                 className="relative z-[5]"
               >
-                <div className="flex gap-2 p-5 rounded-xl shadow-md max-w-[220px] mb-[-340px] bg-white relative z-[4] lg:ml-[50px] scale-75 ml-[-20px] lg:scale-100">
-                  <div className="">
-                    <img
-                      src="/rimg.png"
-                      alt=""
-                      className="w-[100px] my-auto "
-                    />
-                  </div>
-                  <div className="">
-                    <h1 className="font-bold">Gehna Bulani</h1>
-                    <p className="opacity-60">IELTS / TEFL Certified Teacher</p>
-                  </div>
+                <div className=" rounded-xl shadow-md max-w-[240px] mb-[-360px] bg-white relative z-[4] lg:ml-[50px] scale-75 ml-[-20px] lg:scale-100">
+                  <Link href={"/gehna-bulani"} className="flex gap-2  p-5">
+                    <div className="">
+                      <img
+                        src="/rimg.png"
+                        alt=""
+                        className="w-[100px] my-auto "
+                      />
+                    </div>
+                    <div className="">
+                      <h1 className="font-bold">Gehna Bulani</h1>
+                      <p className="opacity-60">
+                        IELTS / TEFL Certified Teacher
+                      </p>
+                    </div>
+                  </Link>
                 </div>
               </motion.div>
               <motion.div
@@ -115,7 +120,9 @@ const Hero = () => {
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">SPOKEN ENGLISH</h1>
+                <h1 className="font-bold text-2xl montserrat">
+                  SPOKEN ENGLISH
+                </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
@@ -129,7 +136,9 @@ const Hero = () => {
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">SPOKEN ENGLISH</h1>
+                <h1 className="font-bold text-2xl montserrat">
+                  SPOKEN ENGLISH
+                </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
@@ -143,7 +152,9 @@ const Hero = () => {
                 <p className="opacity-60">Coaching</p>
               </div>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">SPOKEN ENGLISH</h1>
+                <h1 className="font-bold text-2xl montserrat">
+                  SPOKEN ENGLISH
+                </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
             </Marquee>
