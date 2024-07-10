@@ -28,7 +28,7 @@ const VideoReview = () => {
           Our Student Reviews
         </h1>
       </div>
-      <div className=" flex justify-center gap-5 p-5 items-center">
+      <div className="h-full flex justify-center gap-5 p-5 items-center">
         <div className="">
           {num > 0 && (
             <IoIosArrowDropleftCircle
