@@ -8,6 +8,7 @@ import Faq from './Home/Faq'
 import Testimonials from './Home/Testimonials'
 import Contact from './Home/Contact'
 import Footer from './Footer'
+import VideoReview from './Home/VideoReview'
 
 const HomePage = () => {
   return (
@@ -30,6 +31,9 @@ const HomePage = () => {
         </section>
         <section>
           <Faq />
+        </section>
+        <section>
+          <VideoReview/>
         </section>
         <section>
           <Testimonials />

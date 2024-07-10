@@ -47,21 +47,28 @@ const Gallery = () => {
       <main
         className={show ? "lg:hidden overflow-scroll gap-2 flex p-2" : "hidden"}
       >
-        <img src="/g1.png" alt="" className="h-[200px]" />
-        <img src="/g2.png" alt="" className="h-[200px]" />
-        <img src="/g3.png" alt="" className="h-[200px]" />
-        <img src="/g4.png" alt="" className="h-[200px]" />
-        <img src="/g5.png" alt="" className="h-[200px]" />
-        <img src="/g6.png" alt="" className="h-[200px]" />
-        <img src="/g7.png" alt="" className="h-[200px]" />
-        <img src="/g8.png" alt="" className="h-[200px]" />
-        <img src="/g9.png" alt="" className="h-[200px]" />
-        <img src="/g10.png" alt="" className="h-[200px]" />
-        <img src="/g11.png" alt="" className="h-[200px]" />
-        <img src="/g12.png" alt="" className="h-[200px]" />
-        <img src="/g13.png" alt="" className="h-[200px]" />
-        <img src="/g14.png" alt="" className="h-[200px]" />
-        <img src="/g15.png" alt="" className="h-[200px]" />
+        <img src="/g1.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g2.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g3.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g4.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g5.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g6.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g7.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g8.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g9.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g10.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g11.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g12.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g13.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g14.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g15.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g16.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g17.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g18.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g19.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g20.png" alt="" className="h-[200px] rounded-2xl" />
+        <img src="/g21.png" alt="" className="h-[200px] rounded-2xl" />
+        
       </main>
     </div>
   );
