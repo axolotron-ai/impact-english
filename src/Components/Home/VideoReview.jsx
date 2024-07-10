@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
@@ -18,39 +18,37 @@ const VideoReview = () => {
     } else {
     }
   };
+  useEffect(() => {
+    setNum(0);
+  }, []);
   return (
     <div className="bg-green-400 min-h-[100vh] w-full overflow-hidden">
-    <div className="py-10 px-10 lg:px-20 text-center">
-        <h1 className="text-white lg:text-4xl text-2xl font-bold">Our Student Reviews</h1>
-    </div>
+      <div className="py-10 px-10 lg:px-20 text-center">
+        <h1 className="text-white lg:text-4xl text-2xl font-bold">
+          Our Student Reviews
+        </h1>
+      </div>
       <div className=" flex justify-center gap-5 p-5 items-center">
         <div className="">
-         {
-            num > 0 && (
-              <IoIosArrowDropleftCircle
-                onClick={handleDecrement}
-                className="text-4xl text-white"
-              />
-            )
-         }
+          {num > 0 && (
+            <IoIosArrowDropleftCircle
+              onClick={handleDecrement}
+              className="text-4xl text-white"
+            />
+          )}
         </div>
         <div className="">
-          <video
-            src={vidsrc[num]}
-            controls
-            className="max-h-[80vh] rounded-2xl"
-          ></video>
+          <video src={vidsrc[num]} autoPlay muted controls className="max-h-[80vh] rounded-2xl">
+
+          </video>
         </div>
         <div className="">
-         {
-            num < vidsrc.length - 1 && (
-              <IoIosArrowDroprightCircle
-                onClick={handleIncrement}
-                className="text-4xl text-white"
-              />
-            )
- 
-         }
+          {num < vidsrc.length - 1 && (
+            <IoIosArrowDroprightCircle
+              onClick={handleIncrement}
+              className="text-4xl text-white"
+            />
+          )}
         </div>
       </div>
     </div>

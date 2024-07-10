@@ -54,7 +54,7 @@ const Contact = () => {
                 <a href="tel:+919420969000">
                   <div className="flex ">
                     <div className="">
-                      <FaPhoneAlt className="m-2 text-2xl" />
+                      <FaPhoneAlt className="m-2 text-2xl" target="_blank"/>
                     </div>
                     <div className="">
                       <h1 className="font-bold">Ph.no</h1>
@@ -62,7 +62,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </a>
-                <a href="mailto:enquiries.impactenglish@gmail.com">
+                <a href="mailto:enquiries.impactenglish@gmail.com" target="_blank">
                   <div className="flex">
                     <div className="">
                       <IoMail className="m-2 text-2xl" />
@@ -73,7 +73,7 @@ const Contact = () => {
                     </div>
                   </div>
                 </a>
-                <a href="">
+                <a href="https://goo.gl/maps/RrcCtCPDTFE4zk368?g_st=aw" target="_blank">
                   <div className="flex">
                     <div className="">
                       <FaLocationDot className="m-2 text-2xl" />

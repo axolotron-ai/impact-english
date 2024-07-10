@@ -62,7 +62,7 @@ const Footer = () => {
               Information
             </h1>
             <div className="montserrat grid gap-5 pt-5">
-              <a href="tel:+919420969000">
+              <Link href={"tel:+919420969000"}>
                 <div className="flex opacity-70 hover:opacity-100 duration-200 ">
                   <div className="">
                     <FaPhoneAlt className="m-2 text-2xl" />
@@ -72,8 +72,8 @@ const Footer = () => {
                     <p>94209 69000</p>
                   </div>
                 </div>
-              </a>
-              <a href="mailto:enquiries.impactenglish@gmail.com">
+              </Link>
+              <Link href={"mailto:enquiries.impactenglish@gmail.com"}>
                 <div className="flex opacity-70 hover:opacity-100 duration-200">
                   <div className="">
                     <IoMail className="m-2 text-2xl" />
@@ -83,13 +83,17 @@ const Footer = () => {
                     <p>enquiries.impactenglish@gmail.com</p>
                   </div>
                 </div>
-              </a>
-              <a href="">
+              </Link>
+              <Link href={"https://goo.gl/maps/RrcCtCPDTFE4zk368?g_st=aw"}>
                 <div className="flex opacity-70 hover:opacity-100 duration-200">
                   <div className="">
                     <FaLocationDot className="m-2 text-2xl" />
                   </div>
-                  <div className="">
+                  <div
+                    
+                    target="_blank"
+                    className=""
+                  >
                     <h1 className="font-bold">Address</h1>
                     <p>
                       Vasant Valley Complex, 1401/Acacia Near narayana School
@@ -97,7 +101,7 @@ const Footer = () => {
                     </p>
                   </div>
                 </div>
-              </a>
+              </Link>
             </div>
           </section>
         </section>
@@ -113,13 +117,19 @@ const Footer = () => {
             </span>
           </div>
           <div className="lg:flex hidden justify-center gap-20 pt-10 text-2xl">
-            <a href="">
+            <a
+              href="https://www.instagram.com/impactenglish_ielts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+              target="_blank"
+            >
               <FaInstagram />
             </a>
-            <a href="">
+            <a
+              href="https://www.facebook.com/mamta.kalachandani?mibextid=rS40aB7S9Ucbxw6v"
+              target="_blank"
+            >
               <FaFacebook />
             </a>
-            <a href="">
+            <a href="https://wa.me/+919420969000" target="_blank">
               <FaWhatsapp />
             </a>
           </div>

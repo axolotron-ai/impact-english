@@ -1,52 +1,54 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Hero from './Home/Hero'
-import About from './Home/About'
-import Gallery from './Home/Gallery'
-import Courses from './Home/Courses'
-import Faq from './Home/Faq'
-import Testimonials from './Home/Testimonials'
-import Contact from './Home/Contact'
-import Footer from './Footer'
-import VideoReview from './Home/VideoReview'
-
+import React from "react";
+import Navbar from "./Navbar";
+import Hero from "./Home/Hero";
+import About from "./Home/About";
+import Gallery from "./Home/Gallery";
+import Courses from "./Home/Courses";
+import Faq from "./Home/Faq";
+import Testimonials from "./Home/Testimonials";
+import Contact from "./Home/Contact";
+import Footer from "./Footer";
+import dynamic from "next/dynamic";
+const VideoReview = dynamic(() => import("./Home/VideoReview"), {
+  ssr: false,
+});
 const HomePage = () => {
   return (
     <div>
-      <main className='paper bg-cover'>
-        <section >
+      <main className="paper bg-cover">
+        <section>
           <Navbar />
         </section>
         <section>
           <Hero />
         </section>
-        <section id='about'>
+        <section id="about">
           <About />
         </section>
-        <section id='courses'>
+        <section id="courses">
           <Courses />
         </section>
-        <section id='gallery'>
+        <section id="gallery">
           <Gallery />
         </section>
         <section>
           <Faq />
         </section>
         <section>
-          <VideoReview/>
+          <VideoReview />
         </section>
         <section>
           <Testimonials />
         </section>
-        <section id='contact'>
+        <section id="contact">
           <Contact />
         </section>
         <section>
-          <Footer/>
+          <Footer />
         </section>
       </main>
     </div>
-  )
-}
+  );
+};
 
-export default HomePage
+export default HomePage;
