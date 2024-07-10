@@ -22,13 +22,13 @@ const VideoReview = () => {
     setNum(0);
   }, []);
   return (
-    <div className="bg-green-400 min-h-[100vh] w-full overflow-hidden">
-      <div className="py-10 px-10 lg:px-20 text-center">
+    <div className="bg-green-400 w-full overflow-hidden">
+      <div className="pt-10 px-10 lg:px-20 text-center">
         <h1 className="text-white lg:text-4xl text-2xl font-bold">
           Our Student Reviews
         </h1>
       </div>
-      <div className="h-full flex justify-center gap-5 p-5 items-center">
+      <div className=" flex justify-center gap-5 py-10 pb-20 px-5 items-center">
         <div className="">
           {num > 0 && (
             <IoIosArrowDropleftCircle
@@ -38,7 +38,7 @@ const VideoReview = () => {
           )}
         </div>
         <div className="">
-          <video src={vidsrc[num]} autoPlay muted controls className="max-h-[80vh] rounded-2xl">
+          <video src={vidsrc[num]} autoPlay muted controls className=" max-h-[80vh] rounded-2xl">
 
           </video>
         </div>
