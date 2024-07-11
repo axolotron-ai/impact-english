@@ -30,7 +30,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div className="pt-10 overflow-hidden">
+    <div className="pt-10 overflow-hidden ">
       <main>
         <motion.div  initial={{ opacity: 0, scale: 0.9, x: 0, y: -100 }}
             whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
@@ -166,7 +166,7 @@ const Testimonials = () => {
             ""
           )}
         </motion.div>
-        <section className="lg:hidden py-10 px-5 overflow-scroll flex gap-5 snap-start">
+        <section className="lg:hidden py-10 px-5 overflow-x-scroll flex gap-5 snap-start no-scrollbar">
           {data.map((data,index) => {
             return (
               <section
