@@ -13,10 +13,12 @@ const About = () => {
           className="flex justify-center"
         >
           <h1 className="text-center lg:text-2xl text-[17px] px-10 lg:p-0 max-w-[880px]">
-            "Impact English is the most sought after class in Kalyan, Mumbai for
-            English proficiency & IELTS training.Highly effective training
-            methodologies & resources conducive to the standards of
-            International learning are incorporated in our teaching programs."
+            "Impact English, a leading IELTS training provider, prioritizes
+            trust, integrity, and dedicated efforts. As an official IDP IELTS
+            partner, we offer top-tier assistance, timely updates, and
+            comprehensive counseling.We ensure students' success through diverse
+            resources and a holistic learning approach, aiming for scores of 7
+            Bands and above"
           </h1>
         </motion.div>
         <section className="grid lg:grid-cols-2 pt-[50px] lg:max-h-[80vh] overflow-hidden">
@@ -144,9 +146,17 @@ const About = () => {
                       </h1>
                     </div>
                   </motion.div>
-                  <motion.div initial={{ opacity: 0, scale: 0.9, x: 100, y: 0 }}
+                  <motion.div
+                    initial={{ opacity: 0, scale: 0.9, x: 100, y: 0 }}
                     whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
-                    transition={{ type: "spring", stiffness: 200, damping: 50,delay:0.4 }} className="flex gap-5 items-center">
+                    transition={{
+                      type: "spring",
+                      stiffness: 200,
+                      damping: 50,
+                      delay: 0.4,
+                    }}
+                    className="flex gap-5 items-center"
+                  >
                     <div className="">
                       <svg
                         width="56"
