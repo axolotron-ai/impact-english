@@ -18,7 +18,7 @@ export async function POST(req) {
   // Email options
   const mailOptions = {
     from: 'Info.impactielts@gmail.com',
-    to: 'sebe2k04@gmail.com',
+    to: 'enquiries.impactenglish@gmail.com',
     subject: "Need a Doubt - Faq",
     text: `question: ${question}`,
   };
