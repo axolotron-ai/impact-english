@@ -26,7 +26,7 @@ const Gallery = () => {
               apart from any other IELTS institution.
             </p>
             <div
-              className=" w-full rounded-xl py-2 text-black font-bold bg-green-400"
+              className=" w-full rounded-xl py-2 text-black font-bold bg-green-400 cursor-pointer"
               onClick={() => setShow(true)}
             >
               <h1>View Gallery</h1>
@@ -45,8 +45,9 @@ const Gallery = () => {
         </motion.div>
       </main>
       <main
-        className={show ? "lg:hidden overflow-scroll gap-2 flex p-2" : "hidden"}
+        className={show ? "lg:hidden no-scrollbar scrollhost overflow-scroll gap-2 flex p-2" : "hidden scrollhost no-scrollbar"}
       >
+        <img src="/g0.png" alt="" className="h-[200px] rounded-2xl" />
         <img src="/g1.png" alt="" className="h-[200px] rounded-2xl" />
         <img src="/g2.png" alt="" className="h-[200px] rounded-2xl" />
         <img src="/g3.png" alt="" className="h-[200px] rounded-2xl" />
@@ -68,7 +69,7 @@ const Gallery = () => {
         <img src="/g19.png" alt="" className="h-[200px] rounded-2xl" />
         <img src="/g20.png" alt="" className="h-[200px] rounded-2xl" />
         <img src="/g21.png" alt="" className="h-[200px] rounded-2xl" />
-        
+
       </main>
     </div>
   );

@@ -13,7 +13,7 @@ const IeltsAcademicPayment = () => {
       "src",
       "https://checkout.razorpay.com/v1/payment-button.js"
     );
-    Script.setAttribute("data-payment_button_id", "pl_OVMsYQXAop9qIG");
+    Script.setAttribute("data-payment_button_id", "pl_OXK7ATFllP3iTA");
     if (Form) {
       Form.appendChild(Script);
     }

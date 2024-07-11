@@ -23,7 +23,11 @@ const GehnaBulani = () => {
         </section>
         <div className="grid gap-5 grid-cols-1 lg:grid-cols-2 ">
           <div className="flex justify-center">
-            <img src="/heroimg.png" alt="" className="max-w-[400px] min-w-[280px]" />
+            <img
+              src="/heroimg.png"
+              alt=""
+              className="max-w-[400px] min-w-[280px] h-fit"
+            />
           </div>
           <div className="flex items-center pt-10">
             <div className="">
@@ -32,12 +36,21 @@ const GehnaBulani = () => {
               </h1>
               <h5 className="">IELTS & TEFL Certified Trainer</h5>
               <h6 className="text-[19px] pt-2 text-justify">
-                As a person with a passion for languages, I explored courses
-                like TEFL and IELTS to better educate students. Teaching
-                globally, I found that the real challenge in language learning
-                was a lack of enthusiasm. By creating customized lessons, I aim
-                to make language learning engaging and enjoyable, similar to how
-                we naturally learn as children.
+                With a passion for languages and a strong inclination towards
+                interpersonal acumen, I have endeavored to bridge the knowledge
+                gap for my students by delving beyond the standard curriculum.My
+                journey led me to certifications in TEFL, Young Learners
+                English, and IELTS from ITTT Cambridge and IDP official
+                partners, which fueled my desire to teach students across
+                various levels and nationalities.
+              </h6>
+              <h6 className="text-[19px] pt-2 text-justify">
+                My teaching experience, includes a significant tenure at Nevys
+                in Toronto, Canada, where I worked with immigrants from diverse
+                cultures and language levels. By customizing lessons to meet
+                students' needs and making language learning an enjoyable
+                experience, I strive to recreate the natural, immersive learning
+                environment for the patrons.
               </h6>
               <div className="flex justify-around lg:justify-start gap-10 pt-5">
                 <div className="">
@@ -55,10 +68,16 @@ const GehnaBulani = () => {
                 </div>
               </div>
               <div className="text-green-400 text-3xl pt-8 flex justify-around lg:justify-start lg:gap-20">
-                <a href="https://www.instagram.com/impactenglish_ielts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <a
+                  href="https://www.instagram.com/impactenglish_ielts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  target="_blank"
+                >
                   <FaInstagram />
                 </a>
-                <a href="https://www.facebook.com/mamta.kalachandani?mibextid=rS40aB7S9Ucbxw6v" target="_blank">
+                <a
+                  href="https://www.facebook.com/mamta.kalachandani?mibextid=rS40aB7S9Ucbxw6v"
+                  target="_blank"
+                >
                   <FaFacebook />
                 </a>
                 <a href="https://wa.me/+919420969000" target="_blank">

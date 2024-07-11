@@ -10,14 +10,14 @@ export async function POST(req) {
     // true for 465, false for other ports
     service: "gmail",
     auth: {
-      user: "wedyftesting@gmail.com",
-      pass: "upys jmwe nbga kdul",
+      user: "Info.impactielts@gmail.com",
+      pass: "zjvf qtbd uaaj qtvj",
     },
   });
 
   // Email options
   const mailOptions = {
-    from: 'wedyftesting@gmail.com',
+    from: 'Info.impactielts@gmail.com',
     to: 'sebe2k04@gmail.com',
     subject: "Need a Doubt - Faq",
     text: `question: ${question}`,
