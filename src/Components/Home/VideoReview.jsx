@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { IoIosArrowDropleftCircle } from "react-icons/io";
 import { IoIosArrowDroprightCircle } from "react-icons/io";
 
-const vidsrc = ["/vid1.mp4", "/vid2.mp4", "/vid3.mp4", "/vid4.mp4"];
+const vidsrc = ["/vid0.mp4","/vid1.mp4", "/vid2.mp4", "/vid3.mp4", "/vid4.mp4"];
 
 const VideoReview = () => {
   const [num, setNum] = useState(0);
