@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React, { useState } from "react";
+import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 const Gallery = () => {
   const [show, setShow] = useState(false);
@@ -44,33 +45,66 @@ const Gallery = () => {
           <img src="/gallerylgbg.png" alt="" />
         </motion.div>
       </main>
-      <main
+      {/* <main
         className={show ? "lg:hidden no-scrollbar scrollhost overflow-scroll gap-2 flex p-2" : "hidden scrollhost no-scrollbar"}
       >
-        <img src="/g0.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g1.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g2.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g3.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g4.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g5.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g6.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g7.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g8.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g9.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g10.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g11.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g12.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g13.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g14.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g15.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g16.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g17.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g18.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g19.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g20.png" alt="" className="h-[200px] rounded-2xl" />
-        <img src="/g21.png" alt="" className="h-[200px] rounded-2xl" />
+      
+        <img src="/g0.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g1.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g2.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g3.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g4.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g5.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g6.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g7.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g8.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g9.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g10.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g11.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g12.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g13.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g14.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g15.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g16.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g17.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g18.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g19.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g20.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        <img src="/g21.png" alt="" className="h-[200px] rounded-2xl px-2" />
 
-      </main>
+      </main> */}
+      <section
+        className={
+          show
+            ? "lg:hidden overflow-hidden w-full my-10 text-center py-5"
+            : "hidden"
+        }
+      >
+        <Marquee pauseOnClick >
+          <img src="/g0.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g1.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g2.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g3.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g4.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g5.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g6.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g7.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g8.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g9.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g10.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g11.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g12.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g13.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g14.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g15.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g16.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g17.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g18.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g19.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g20.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g21.png" alt="" className="h-[200px] rounded-2xl px-2" />
+        </Marquee>
+      </section>
     </div>
   );
 };

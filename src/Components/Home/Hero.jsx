@@ -27,13 +27,15 @@ const Hero = () => {
                   <p>
                     At Impact English, we go beyond textbooks, focusing on
                     real-world English for IELTS success. Our tailored resources
-                    ensure confident progress without overwhelm.
+                    and expert guidance ensure students achieve proficiency and
+                    excel in their exams, paving the way for global
+                    opportunities.
                   </p>
                 </div>
                 <div className="py-8 w-fit relative z-[5]">
                   <Link href={"/#courses"}>
                     <div className="px-4 py-2 rounded-xl border-2 border-black text-xl font-semibold hover:shadow-md hover:bg-green-400 hover:text-white duration-100 hover:border-none">
-                      Achieve 7 Band score
+                      Achieve 7+ Band score
                     </div>
                   </Link>
                 </div>

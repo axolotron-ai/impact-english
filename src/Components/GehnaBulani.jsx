@@ -5,6 +5,7 @@ import Link from "next/link";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import Marquee from "react-fast-marquee";
 
 const GehnaBulani = () => {
   return (
@@ -54,15 +55,15 @@ const GehnaBulani = () => {
               </h6>
               <div className="flex justify-around lg:justify-start gap-10 pt-5">
                 <div className="">
-                  <h1 className="text-4xl font-bold">10+</h1>
+                  <h1 className="text-4xl font-bold">5+</h1>
                   <h3>
                     Years of <br /> experience
                   </h3>
                 </div>
                 <div className="">
-                  <h1 className="text-4xl font-bold">100+</h1>
+                  <h1 className="text-4xl font-bold">100</h1>
                   <h3>
-                    7 band
+                    7+ band
                     <br /> Students made
                   </h3>
                 </div>
