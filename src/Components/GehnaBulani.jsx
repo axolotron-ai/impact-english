@@ -63,7 +63,7 @@ const GehnaBulani = () => {
                 <div className="">
                   <h1 className="text-4xl font-bold">100+</h1>
                   <h3>
-                    7+ band
+                    7 band
                     <br /> Students
                   </h3>
                 </div>
