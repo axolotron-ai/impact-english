@@ -82,7 +82,7 @@ const Gallery = () => {
       >
         <Marquee pauseOnClick >
           <img src="/g0.png" alt="" className="h-[200px] rounded-2xl px-2" />
-          <img src="/g1.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          
           <img src="/g2.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g3.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g4.png" alt="" className="h-[200px] rounded-2xl px-2" />
@@ -103,6 +103,9 @@ const Gallery = () => {
           <img src="/g19.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g20.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g21.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g22.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g23.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g24.jpg" alt="" className="h-[200px] rounded-2xl px-2" />
         </Marquee>
       </section>
     </div>
