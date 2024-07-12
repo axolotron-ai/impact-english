@@ -99,7 +99,7 @@ const Gallery = () => {
           <img src="/g15.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g16.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g17.png" alt="" className="h-[200px] rounded-2xl px-2" />
-          <img src="/g18.png" alt="" className="h-[200px] rounded-2xl px-2" />
+          
           <img src="/g19.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g20.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g21.png" alt="" className="h-[200px] rounded-2xl px-2" />
