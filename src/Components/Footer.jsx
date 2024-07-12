@@ -6,6 +6,8 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -84,20 +86,18 @@ const Footer = () => {
                   </div>
                 </div>
               </Link>
-              <Link href={"https://goo.gl/maps/RrcCtCPDTFE4zk368?g_st=aw"}>
+              <Link href={"https://maps.app.goo.gl/3M8wSG8M25F57jNJ8"}>
                 <div className="flex opacity-70 hover:opacity-100 duration-200">
                   <div className="">
                     <FaLocationDot className="m-2 text-2xl" />
                   </div>
-                  <div
-                    
-                    target="_blank"
-                    className=""
-                  >
+                  <div target="_blank" className="">
                     <h1 className="font-bold">Address</h1>
                     <p>
-                      Vasant Valley Complex, 1401/Acacia Near narayana School
-                      Khadakpada, Kalyan West, Mumbai, Maharashtra 421301
+                      Impact English classes (IELTS connoisseur)IDP
+                      certified.Official partners of IDP., Vasant Valley
+                      Complex, 1401/Acacia Near narayana School Khadakpada,
+                      Kalyan West, Mumbai, Maharashtra 421301
                     </p>
                   </div>
                 </div>
@@ -132,6 +132,12 @@ const Footer = () => {
             <a href="https://wa.me/+919420969000" target="_blank">
               <FaWhatsapp />
             </a>
+            {/* <a
+              href="https://www.linkedin.com/in/gehna-bulani-bb065019a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+            >
+              <FaLinkedin />
+            </a> */}
           </div>
         </section>
       </main>
