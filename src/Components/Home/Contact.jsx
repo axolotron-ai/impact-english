@@ -94,10 +94,8 @@ const Contact = () => {
                     <div className="">
                       <h1 className="font-bold">Address</h1>
                       <p>
-                        Impact English classes (IELTS connoisseur)IDP
-                        certified.Official partners of IDP., Vasant Valley
-                        Complex, 1401/Acacia Near narayana School Khadakpada,
-                        Kalyan West, Mumbai, Maharashtra 421301
+                        Vasant Valley Complex, 1401/Acacia Near narayana School
+                        Khadakpada, Kalyan West, Mumbai, Maharashtra 421301
                       </p>
                     </div>
                   </div>

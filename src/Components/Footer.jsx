@@ -8,7 +8,6 @@ import { FaFacebook } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 
-
 const Footer = () => {
   return (
     <div>
@@ -94,10 +93,8 @@ const Footer = () => {
                   <div target="_blank" className="">
                     <h1 className="font-bold">Address</h1>
                     <p>
-                      Impact English classes (IELTS connoisseur)IDP
-                      certified.Official partners of IDP., Vasant Valley
-                      Complex, 1401/Acacia Near narayana School Khadakpada,
-                      Kalyan West, Mumbai, Maharashtra 421301
+                      Vasant Valley Complex, 1401/Acacia Near narayana School
+                      Khadakpada, Kalyan West, Mumbai, Maharashtra 421301
                     </p>
                   </div>
                 </div>
@@ -132,12 +129,12 @@ const Footer = () => {
             <a href="https://wa.me/+919420969000" target="_blank">
               <FaWhatsapp />
             </a>
-            {/* <a
-              href="https://www.linkedin.com/in/gehna-bulani-bb065019a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            <a
+              href="https://www.linkedin.com/in/impact-english-477911204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
             >
               <FaLinkedin />
-            </a> */}
+            </a>
           </div>
         </section>
       </main>

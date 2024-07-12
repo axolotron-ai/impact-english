@@ -84,7 +84,7 @@ const GehnaBulani = () => {
                 <a href="https://wa.me/+919420969000" target="_blank">
                   <FaWhatsapp />
                 </a>
-                <a href="https://www.linkedin.com/in/gehna-bulani-bb065019a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                <a href="https://www.linkedin.com/in/impact-english-477911204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                   <FaLinkedin />
                 </a>
               </div>
