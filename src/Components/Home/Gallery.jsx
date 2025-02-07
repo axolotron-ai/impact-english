@@ -106,6 +106,9 @@ const Gallery = () => {
           <img src="/g22.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g23.png" alt="" className="h-[200px] rounded-2xl px-2" />
           <img src="/g24.jpg" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g25.jpg" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g26.jpg" alt="" className="h-[200px] rounded-2xl px-2" />
+          <img src="/g27.jpg" alt="" className="h-[200px] rounded-2xl px-2" />
         </Marquee>
       </section>
     </div>
