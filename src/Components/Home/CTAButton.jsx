@@ -8,7 +8,7 @@ export default function CTAButton() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('https://impack-english-backend.onrender.com/api/cta/active')
+    fetch('http://localhost:8000/api/cta/active')
       .then((response) => response.json())
       .then((result) => {
         if (result.success && result.data) {

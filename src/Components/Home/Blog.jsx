@@ -7,7 +7,7 @@ const Blog = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [expandedCards, setExpandedCards] = useState({});
-  const host = 'https://impack-english-backend.onrender.com';
+  const host = 'http://localhost:8000';
 
   useEffect(() => {
     let mounted = true;
