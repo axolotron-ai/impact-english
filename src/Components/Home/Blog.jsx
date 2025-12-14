@@ -7,7 +7,7 @@ const Blog = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [expandedCards, setExpandedCards] = useState({});
-  const host = 'http://localhost:8000';
+  const host = 'http://72.61.239.175:8000';
 
   useEffect(() => {
     let mounted = true;

@@ -8,7 +8,7 @@ export default function CTAButton() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('http://localhost:8000/api/cta/active')
+    fetch('http://72.61.239.175:8000/api/cta/active')
       .then((response) => response.json())
       .then((result) => {
         if (result.success && result.data) {

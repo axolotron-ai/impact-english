@@ -9,7 +9,7 @@ const DynamicGallery = ({ apiPath = "/api/gallery", embedded = false }) => {
   const [error, setError] = useState(null);
   const [show, setShow] = useState(embedded);
   const [selectedImage, setSelectedImage] = useState(null);
-  const host = 'http://localhost:8000'; // Adjust based on your backend server
+  const host = 'http://72.61.239.175:8000'; // Adjust based on your backend server
   useEffect(() => {
     let mounted = true;
     const fetchData = async () => {
