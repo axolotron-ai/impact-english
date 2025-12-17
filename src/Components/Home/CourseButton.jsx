@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/navigation';
-
+import Link from "next/link";
 
 
 export default function CTAButton() {
@@ -12,20 +12,19 @@ export default function CTAButton() {
   const [animate, setAnimate] = useState(false);
   const router = useRouter();
 
-  useEffect(() => {
-    fetch('http://72.61.239.175:8000/api/cta/active')
-      .then((response) => response.json())
-      .then((result) => {
-        if (result.success && result.data) {
-          setCtaData(result.data);
-        }
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error('Error fetching CTA:', error);
-        setLoading(false);
-      });
-  }, []);
+  
+
+  const handleHover = () => {
+	setAnimate(false)
+
+    requestAnimationFrame(() => {
+      setAnimate(true)
+    })
+
+	setTimeout(() => {
+    	setAnimate(false);
+  	}, 750);
+  }
 
   const handleClick = () => {
     setAnimate(false)
@@ -40,22 +39,19 @@ export default function CTAButton() {
     }, 700)
   }
 
-  if (loading || !ctaData) {
-    return null;
-  }
+ 
 
   return (
     <>
-	<button onClick={handleClick} className="px-4 py-2 rounded-xl border-2 border-black text-xl font-semibold hover:shadow-md hover:bg-green-400 hover:text-white duration-100 hover:border-none">
-		{ctaData.button_name}
-	</button>
-    
-      {/* <button
+    <Link href={"/#courses"}>
+      <button
+	  onMouseEnter={handleHover}
+	  onMouseLeave={handleHover}
       onClick={handleClick}
       className={`bubblyButton ${animate ? 'animate' : ''}`}
     >
-      {ctaData.button_name}
-    </button> */}
+      Achieve 7+ Band Score
+    </button>
     <style jsx>{`
         .bubblyButton {
 	 font-family: 'Helvetica', 'Arial', sans-serif;
@@ -94,16 +90,16 @@ export default function CTAButton() {
 	 display: none;
 	 top: -75%;
 	 background-image: radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, transparent 20%, #31c48dff 20%, transparent 30%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #31c48dff 15%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%);
-	 background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+	 background-size: 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%;
 }
  .bubblyButton:after {
 	 display: none;
 	 bottom: -75%;
 	 background-image: radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, transparent 10%, #31c48dff 15%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%), radial-gradient(circle, #31c48dff 20%, transparent 20%);
-	 background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+	 background-size: 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%, 10% 10%;
 }
  .bubblyButton:active {
-	 transform: scale(0.9);
+	 transform: scale(1.1);
 	 background-color: #1de49bff;
 	 box-shadow: 0 2px 25px rgba(49 , 196 ,141, 0.2);
 }
@@ -141,6 +137,7 @@ export default function CTAButton() {
 }
  
       `}</style>
+	  </Link>
       
     </>
   );

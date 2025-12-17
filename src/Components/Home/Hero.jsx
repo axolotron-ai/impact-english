@@ -5,6 +5,7 @@ import CountUp from "react-countup";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import CTAButton from "./CTAButton";
+import CourseButton from "./CourseButton";
 const Hero = () => {
   return (
     <div className="">
@@ -34,11 +35,12 @@ const Hero = () => {
                   </p>
                 </div>
                 <div className="py-8 w-fit relative z-[5] flex gap-4 flex-wrap">
-                  <Link href={"/#courses"}>
+                  {/* <Link href={"/#courses"}>
                     <div className="px-4 py-2 rounded-xl border-2 border-black text-xl font-semibold hover:shadow-md hover:bg-green-400 hover:text-white duration-100 hover:border-none">
                       Achieve 7+ Band score
                     </div>
-                  </Link>
+                  </Link> */}
+                  <CourseButton />
                   <CTAButton />
                 </div>
               </motion.div>
@@ -101,7 +103,7 @@ const Hero = () => {
                   <div className="flex justify-end lg:mt-[-150px] mt-10 scale-75 lg:scale-100 mr-[-30px] lg:mr-0 lg:pr-[20px] z-[4]">
                     <div className="bg-white p-5 rounded-xl shadow-md w-fit">
                       <div className="text-2xl font-bold text-black text-center">
-                        <CountUp end={500} duration={5} />+
+                        <CountUp end={1000} duration={5} />+
                       </div>
                       <p className="opacity-60">Successful Students</p>
                     </div>
@@ -114,54 +116,72 @@ const Hero = () => {
         <main className="bg-black text-white lg:mt-0 mt-[120px]">
           <section className=" overflow-hidden w-full my-10 text-center py-5">
             <Marquee>
+              <Link href={'/courses/ielts-general-training'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">GENERAL IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/ielts-academic-training'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">
                   ACADEMIC IELTS
                 </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/spoken-english-course'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">
                   SPOKEN ENGLISH
                 </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/ielts-general-training'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">GENERAL IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/ielts-academic-training'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">
                   ACADEMIC IELTS
                 </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/spoken-english-course'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">
                   SPOKEN ENGLISH
                 </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/ielts-general-training'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">GENERAL IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/ielts-academic-training'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">
                   ACADEMIC IELTS
                 </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
+              <Link href={'/courses/spoken-english-course'}>
               <div className="px-[70px] py-5">
                 <h1 className="font-bold text-2xl montserrat">
                   SPOKEN ENGLISH
                 </h1>
                 <p className="opacity-60">Coaching</p>
               </div>
+              </Link>
             </Marquee>
           </section>
         </main>

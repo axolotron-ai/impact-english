@@ -122,7 +122,7 @@ const Footer = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://www.facebook.com/mamta.kalachandani?mibextid=rS40aB7S9Ucbxw6v"
+              href="https://www.facebook.com/impactenglishielts"
               target="_blank"
             >
               <FaFacebook />
