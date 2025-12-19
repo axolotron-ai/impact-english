@@ -33,6 +33,19 @@ const DynamicGallery = ({ apiPath = "/api/gallery", embedded = false }) => {
     return () => (mounted = false);
   }, [apiPath]);
 
+  const normalizeImageUrl = (url) => {
+  if (!url) return '';
+
+  // Already absolute URL (http / https)
+  if (/^https?:\/\//i.test(url)) {
+    return url;
+  }
+
+  // Relative path → prepend backend host
+  return `${host}/uploads${url.startsWith('/') ? '' : '/'}${url}`;
+};
+
+
   if (loading) return <div className="p-10">Loading gallery…</div>;
   if (error) return <div className="p-10 text-red-600">Error: {error}</div>;
 
@@ -56,7 +69,7 @@ const DynamicGallery = ({ apiPath = "/api/gallery", embedded = false }) => {
                 {album.photos.map((photo, idx) => (
                   <img 
                     key={idx} 
-                    src={photo.img_url} 
+                    src={normalizeImageUrl(photo.img_url)} 
                     alt={photo.caption || `${title} photo ${idx + 1}`} 
                     className="h-[200px] rounded-2xl px-2 cursor-pointer hover:opacity-90 transition-opacity" 
                     onClick={() => setSelectedImage(photo)}
@@ -97,7 +110,7 @@ const DynamicGallery = ({ apiPath = "/api/gallery", embedded = false }) => {
                         onClick={() => setSelectedImage(photo)}
                       >
                         <img
-                          src={photo.img_url}
+                          src={normalizeImageUrl(photo.img_url)}
                           alt={photo.caption || `${title} photo ${idx + 1}`}
                           className="object-contain h-64 sm:h-56 w-full sm:w-auto max-w-full hover:opacity-90 transition-opacity"
                           loading="lazy"
@@ -131,7 +144,7 @@ const DynamicGallery = ({ apiPath = "/api/gallery", embedded = false }) => {
             initial={{ scale: 0.8, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.3 }}
-            src={selectedImage.img_url}
+            src={normalizeImageUrl(selectedImage.img_url)}
             alt={selectedImage.caption || 'Photo'}
             className="max-w-full max-h-full object-contain"
             onClick={(e) => e.stopPropagation()}
