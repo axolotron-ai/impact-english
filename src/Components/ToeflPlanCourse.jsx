@@ -15,9 +15,9 @@ const ToeflPlanCourse = () => {
         </section>
         <section className="lg:px-20 pb-10">
           <h1 className="text-4xl montserrat font-bold">
-            Toefl Pre Plan Time line
+            Toefl Pre Plan
           </h1>
-          <h3 className="lg:text-xl text-[17px] pt-5 text-justify ">
+          <h3 className="lg:text-xl text-[17px] pt-5 text-left ">
             Toefl is the right choice if you prefer a fully computer-delivered test. The exam is shorter in duration, assesses integrated language skills and is available both at test centres and as a Home Edition, offering added flexibility. TOEFL is widely recognised, with over 13,000 universities and institutions worldwide.
           </h3>
         </section>
@@ -31,10 +31,10 @@ const ToeflPlanCourse = () => {
                   </h1>
                   <h5>
                     ⏮️Reading accuracy and speed
-                    Integrating core skills-skimming, scanning, inference, and academic vocabulary.
-                    ⏮️Listening for main ideas and exposure to authentic lectures, discussions, and project-based conversations.
-                    ⏮️Writing modules focused on idea development, coherence, and academic tone, with the objective to succeed in both integrated and independent tasks
-                  </h5>
+                    Integrating core skills-skimming, scanning, inference, and academic vocabulary. </h5>
+                    <h5>⏮️Listening for main ideas and exposure to authentic lectures, discussions, and project-based conversations. </h5>
+                    <h5>⏮️Writing modules focused on idea development, coherence, and academic tone, with the objective to succeed in both integrated and independent tasks </h5>
+                  
                 </div>
               </div>
               <div className="pl-[150px] mr-[-80px] z-[2] relative">
@@ -91,12 +91,18 @@ const ToeflPlanCourse = () => {
                   <h1 className="font-bold text-xl montserrat">
                     Speaking practice & Skill Application 
                   </h1>
-                  <h5>
-                    ✅️Up-to-date with January 2026 TOEFL changes
-                    ✅️ CEFR-aligned preparation for clearer score goals
-                    ✅️Adaptive-test strategies, not outdated drills
-                    ✅️Faster results, smarter prep, real academic readiness
-                  </h5>
+                 <h5> ⏮️ Speaking practice & Skill Application
+From independent responses to campus-style discussions, we coach you to speak with structure, clarity, and confidence.</h5>
+
+<h5>
+⏮️ Timed practice and section-wise evaluation.
+</h5>
+<h5>
+⏮️ Full-length test simulations and mock tests covering all four skills.
+</h5>
+<h5>
+⏮️ Detailed feedback to identify gaps and refine performance.
+</h5>
                 </div>
               </div>
               <div className="pr-[150px] ml-[-80px] z-[2] relative">
@@ -141,10 +147,10 @@ const ToeflPlanCourse = () => {
                     </h1>
                     <h5>
                     ⏮️Reading accuracy and speed
-                    Integrating core skills-skimming, scanning, inference, and academic vocabulary.
-                    ⏮️Listening for main ideas and exposure to authentic lectures, discussions, and project-based conversations.
-                    ⏮️Writing modules focused on idea development, coherence, and academic tone, with the objective to succeed in both integrated and independent tasks
-                    </h5>
+                    Integrating core skills-skimming, scanning, inference, and academic vocabulary. </h5>
+                    <h5>⏮️Listening for main ideas and exposure to authentic lectures, discussions, and project-based conversations. </h5>
+                    <h5>⏮️Writing modules focused on idea development, coherence, and academic tone, with the objective to succeed in both integrated and independent tasks </h5>
+                  
                   </div>
                 </div>
                 <div className="ml-[-10px] z-[2] relative">
@@ -179,12 +185,18 @@ const ToeflPlanCourse = () => {
                     <h1 className="font-bold text-[21px] montserrat">
                       Intermediate Skills
                     </h1>
-                    <h5>
-                      ✅️Up-to-date with January 2026 TOEFL changes
-                      ✅️ CEFR-aligned preparation for clearer score goals
-                      ✅️Adaptive-test strategies, not outdated drills
-                      ✅️Faster results, smarter prep, real academic readiness
-                    </h5>
+                   <h5> ⏮️ Speaking practice & Skill Application
+From independent responses to campus-style discussions, we coach you to speak with structure, clarity, and confidence.</h5>
+
+<h5>
+⏮️ Timed practice and section-wise evaluation.
+</h5>
+<h5>
+⏮️ Full-length test simulations and mock tests covering all four skills.
+</h5>
+<h5>
+⏮️ Detailed feedback to identify gaps and refine performance.
+</h5>
                   </div>
                 </div>
                 <div className="ml-[-10px] z-[2] relative">

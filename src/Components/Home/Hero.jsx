@@ -65,7 +65,7 @@ const Hero = () => {
                       <div className="">
                         <h1 className="font-bold">Gehna Bulani</h1>
                         <p className="opacity-60">
-                          IELTS / TEFL Certified Teacher
+                          IELTS / TOEFL Certified Teacher
                         </p>
                       </div>
                     </Link>
@@ -138,25 +138,9 @@ const Hero = () => {
                 <p className="opacity-60">Coaching</p>
               </div>
               </Link>
-              <Link href={'/courses/ielts-general-training'}>
+              <Link href={'/courses/toefl-plan-training'}>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">GENERAL IELTS</h1>
-                <p className="opacity-60">Coaching</p>
-              </div>
-              </Link>
-              <Link href={'/courses/ielts-academic-training'}>
-              <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">
-                  ACADEMIC IELTS
-                </h1>
-                <p className="opacity-60">Coaching</p>
-              </div>
-              </Link>
-              <Link href={'/courses/spoken-english-course'}>
-              <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">
-                  SPOKEN ENGLISH
-                </h1>
+                <h1 className="font-bold text-2xl montserrat">TOEFL IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               </Link>
@@ -179,6 +163,40 @@ const Hero = () => {
                 <h1 className="font-bold text-2xl montserrat">
                   SPOKEN ENGLISH
                 </h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/toefl-plan-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">TOEFL IELTS</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/ielts-general-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">GENERAL IELTS</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/ielts-academic-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">
+                  ACADEMIC IELTS
+                </h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/spoken-english-course'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">
+                  SPOKEN ENGLISH
+                </h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/toefl-plan-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">TOEFL IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               </Link>

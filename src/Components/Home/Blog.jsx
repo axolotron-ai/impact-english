@@ -93,7 +93,7 @@ const Blog = () => {
   if (error) return <div className="p-10 text-center text-red-600">Error: {error}</div>;
 
   return (
-    <div className="lg:px-20 px-10 py-16">
+    <div className="lg:px-20 px-10 py-16" id="blogs">
       <motion.h1
         initial={{ opacity: 0, y: -30 }}
         whileInView={{ opacity: 1, y: 0 }}

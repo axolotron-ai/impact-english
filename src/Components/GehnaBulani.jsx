@@ -35,12 +35,12 @@ const GehnaBulani = () => {
               <h1 className="text-5xl font-bold bg-gradient-to-r from-green-400 to-green-700 bg-clip-text inline-block text-transparent">
                 Gehna Bulani
               </h1>
-              <h5 className="">IELTS & TEFL Certified Trainer</h5>
+              <h5 className="">IELTS & TOEFL Certified Trainer</h5>
               <h6 className="text-[19px] pt-2 text-justify">
                 With a passion for languages and a strong inclination towards
                 interpersonal acumen, I have endeavored to bridge the knowledge
                 gap for my students by delving beyond the standard curriculum.My
-                journey led me to certifications in TEFL, Young Learners
+                journey led me to certifications in TOEFL, Young Learners
                 English, and IELTS from ITTT Cambridge and IDP official
                 partners, which fueled my desire to teach students across
                 various levels and nationalities.

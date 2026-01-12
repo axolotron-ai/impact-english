@@ -36,13 +36,13 @@ const Navbar = () => {
               <p className="text-black z-[1]">Home</p>
             </div>
           </Link>
-          <Link href={"/#about"}>
+          <Link href={"/gehna-bulani"}>
             <div className="flex overflow-hidden relative flex-col justify-center self-stretch px-5 py-2.5 my-auto aspect-[2.97]  max-md:pr-5">
               <img
                 loading="lazy"
                 src="/activeNav.png"
                 className={
-                  path === "/#about"
+                  path === "/gehna-bulani"
                     ? "object-cover absolute inset-0 size-full"
                     : "hidden"
                 }
@@ -64,18 +64,18 @@ const Navbar = () => {
               <p className="text-black z-[1]">Courses</p>
             </div>
           </Link>
-          <Link href={"/#gallery"}>
+          <Link href={"/#blogs"}>
             <div className="flex overflow-hidden relative flex-col items-center justify-center self-stretch px-5 py-2.5 my-auto aspect-[2.97]  max-md:pr-5">
               <img
                 loading="lazy"
                 src="/activeNav.png"
                 className={
-                  path === "/#gallery"
+                  path === "/#blogs"
                     ? "object-cover absolute inset-0 size-full mt-3 h-[35px] overflow-hidden "
                     : "hidden"
                 }
               />
-              <p className="text-black z-[1]">Achievements</p>
+              <p className="text-black z-[1]">Blogs</p>
             </div>
           </Link>
           <Link href={"/#gallery"}>
@@ -126,6 +126,12 @@ const Navbar = () => {
               <Link href={"/#gallery"} onClick={toggleDrawer(false)}>
                 <div className="flex justify-between montserrat items-center">
                   <h1 className="text-2xl">Gallery</h1>
+                  <IoIosArrowForward className="text-2xl" />
+                </div>
+              </Link>
+              <Link href={"/#blogs"} onClick={toggleDrawer(false)}>
+                <div className="flex justify-between montserrat items-center">
+                  <h1 className="text-2xl">Blogs</h1>
                   <IoIosArrowForward className="text-2xl" />
                 </div>
               </Link>
