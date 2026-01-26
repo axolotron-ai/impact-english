@@ -15,10 +15,10 @@ const ToeflExpressCourse = () => {
         </section>
         <section className="lg:px-20 pb-10">
           <h1 className="text-4xl montserrat font-bold">
-            Toefl Express Time line
+            Toefl Intense Time line
           </h1>
           <h3 className="lg:text-xl text-[17px] pt-5 text-justify ">
-            TOEFL Express is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve. This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.</h3>
+            TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve. This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.</h3>
         </section>
         <section className="lg:flex hidden justify-center">
           <section className="grid grid-cols-7 h-fit  overflow-y-hidden">
@@ -29,14 +29,11 @@ const ToeflExpressCourse = () => {
                     Short on time but clear about your goal?
                   </h1>
                   <h5>
-                   TOEFL Express is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.
+                   TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.
 
 This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.
 
 You’ll work intensively across all four skills, receive detailed, actionable feedback, and take full-length simulation mock tests ensuring confidence and clarity.
-
-If your deadline is close and you need a clear, efficient path forward-
-TOEFL Express fits the purpose.
                    </h5>
                 </div>
               </div>
@@ -100,14 +97,11 @@ TOEFL Express fits the purpose.
                       Short on time but clear about your goal?
                     </h1>
                     <h5>
-                    TOEFL Express is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.
+                    TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.
 
 This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.
 
 You’ll work intensively across all four skills, receive detailed, actionable feedback, and take full-length simulation mock tests ensuring confidence and clarity.
-
-If your deadline is close and you need a clear, efficient path forward-
-TOEFL Express fits the purpose.
                     </h5>
                   </div>
                 </div>
@@ -128,10 +122,8 @@ TOEFL Express fits the purpose.
         <section>
           <section className="lg:py-20 lg:px-20 text-xl  text-center pt-20 pb-10">
             <h4 className="font-bold">
-              We ensure comprehensive coverage of all TOEFL Express components
-              with specific focus on each skill, providing students with
-              targeted practice, revision, and mock tests in the final week to
-              simulate the actual test environment.
+              If your deadline is close and you need a clear, efficient path forward-
+TOEFL Intense fits the purpose.
             </h4>
           </section>
           <section className="grid lg:grid-cols-2">
@@ -145,10 +137,10 @@ TOEFL Express fits the purpose.
             <div className="">
               <div className="">
                 <h1 className="text-3xl font-bold montserrat">
-                  Toefl Express Training
+                  Toefl Intense Training
                 </h1>
                 <p className="pt-5">
-                  Our Toefl Express Training is ideal for intermediate, offering
+                  Our Toefl Intense Training is ideal for intermediate, offering
                   lessons in situational speaking and different accents.Tailored
                   resources fill gaps in grammar and enhance vocabulary.
                 </p>

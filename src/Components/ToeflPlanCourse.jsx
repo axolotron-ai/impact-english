@@ -214,10 +214,7 @@ From independent responses to campus-style discussions, we coach you to speak wi
         <section>
           <section className="lg:py-20 lg:px-20 text-xl  text-center pt-20 pb-10">
             <h4 className="font-bold">
-              We ensure comprehensive coverage of all TOEFL Pre Plan components
-              with specific focus on each skill, providing students with
-              targeted practice, revision, and mock tests in the final week to
-              simulate the actual test environment.
+              Up-to-date with the January 2026 TOEFL changes, this CEFR-aligned, adaptive-strategy-based preparation delivers faster results, smarter prep, and real academic readiness.
             </h4>
           </section>
           <section className="grid lg:grid-cols-2">
@@ -234,9 +231,7 @@ From independent responses to campus-style discussions, we coach you to speak wi
                   Toefl Pre Plan Training
                 </h1>
                 <p className="pt-5">
-                  Our Toefl Pre Plan Training is ideal for beginners, offering
-                  lessons in situational speaking and different accents.Tailored
-                  resources fill gaps in grammar and enhance vocabulary.
+                  If your goal is not just to take the TOEFL—but to excel in it—you’re in the right place.
                 </p>
               </div>
               <section className="flex gap-10 pt-5">

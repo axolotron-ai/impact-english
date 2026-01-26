@@ -55,7 +55,7 @@ const GehnaBulani = () => {
               </h6>
               <div className="flex justify-around lg:justify-start gap-10 pt-5">
                 <div className="">
-                  <h1 className="text-4xl font-bold">5+</h1>
+                  <h1 className="text-4xl font-bold">7+</h1>
                   <h3>
                     Years of <br /> experience
                   </h3>
@@ -70,13 +70,13 @@ const GehnaBulani = () => {
               </div>
               <div className="text-green-400 text-3xl pt-8 flex justify-around lg:justify-start lg:gap-20">
                 <a
-                  href="https://www.instagram.com/impactenglish_ielts?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                  href="https://www.instagram.com/impactenglishielts?igsh=MXY5eXl3YWl1emhiMQ=="
                   target="_blank"
                 >
                   <FaInstagram />
                 </a>
                 <a
-                  href="https://www.facebook.com/mamta.kalachandani?mibextid=rS40aB7S9Ucbxw6v"
+                  href="https://www.facebook.com/impactenglishielts"
                   target="_blank"
                 >
                   <FaFacebook />

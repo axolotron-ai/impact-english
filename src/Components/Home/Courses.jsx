@@ -195,7 +195,7 @@ const Courses = () => {
             whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
             transition={{ type: "spring", stiffness: 200, damping: 50 }} className="flex items-center relativez-[2]">
             <section className="grid gap-5">
-              <h1 className="lg:text-3xl text-2xl font-bold momo">TOEFL Express</h1>
+              <h1 className="lg:text-3xl text-2xl font-bold momo">TOEFL Intense</h1>
               <p className="text-[17px] lg:text-[20px]">
                 TOEFL Express is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve. This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.
               </p>
