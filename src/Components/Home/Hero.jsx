@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import CTAButton from "./CTAButton";
 import CourseButton from "./CourseButton";
+import CourseButtonToefl from "./CourseButtonToefl";
 const Hero = () => {
   return (
     <div className="">
@@ -21,14 +22,14 @@ const Hero = () => {
               >
                 <div className="staatliches ">
                   <h1 className="text-4xl">
-                    Exclusive <span className="text-red-500">IELTS</span>{" "}
+                    Exclusive <span className="text-red-500">IELTS and TOEFL</span>{" "}
                     preparation course with expert guidance & support
                   </h1>
                 </div>
                 <div className="lg:text-2xl text-xl pt-5">
                   <p>
                     At Impact English, we go beyond textbooks, focusing on
-                    real-world English for IELTS success. Our tailored resources
+                    real-world English for IELTS and TOEFL success. Our tailored resources
                     and expert guidance ensure students achieve proficiency and
                     excel in their exams, paving the way for global
                     opportunities.
@@ -41,6 +42,7 @@ const Hero = () => {
                     </div>
                   </Link> */}
                   <CourseButton />
+                  <CourseButtonToefl />
                   <CTAButton />
                 </div>
               </motion.div>
@@ -65,7 +67,7 @@ const Hero = () => {
                       <div className="">
                         <h1 className="font-bold">Gehna Bulani</h1>
                         <p className="opacity-60">
-                          IELTS / TOEFL Certified Teacher
+                          IELTS / TOEFL Certified Trainer
                         </p>
                       </div>
                     </Link>

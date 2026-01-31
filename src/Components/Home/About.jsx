@@ -14,8 +14,7 @@ const About = () => {
         >
           <h1 className="text-center lg:text-2xl text-[17px] px-10 lg:p-0 max-w-[880px]">
             "Impact English, a leading IELTS training provider, prioritizes
-            trust, integrity, and dedicated efforts. As an official IDP IELTS
-            partner, we offer top-tier assistance, timely updates, and
+            trust, integrity, and dedicated efforts. As an official IDP IELTS and TOEFL Market Ambassador, we offer top-tier assistance, timely updates, and
             comprehensive counseling.We ensure students' success through diverse
             resources and a holistic learning approach, aiming for scores of 7
             Bands and above"

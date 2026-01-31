@@ -20,13 +20,26 @@ const ToeflExpressCourse = () => {
           <h3 className="lg:text-xl text-[17px] pt-5 text-justify ">
             TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve. This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.</h3>
         </section>
-        <section className="lg:flex hidden justify-center">
+         <section className="lg:px-20 pb-10 max-w-[700px] mt-[60px]">
+          <h1 className="font-bold text-xl montserrat">
+            Short on time but clear about your goal? Intense TOEFL is right up your alley.
+          </h1>
+          <h5 className="h-fit">
+           TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.
+
+This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.
+
+You’ll work intensively across all four skills, receive detailed, actionable feedback, and take full-length simulation mock tests ensuring confidence and clarity.
+                   </h5>
+        </section>
+
+        {/* <section className="lg:flex hidden justify-center">
           <section className="grid grid-cols-7 h-fit  overflow-y-hidden">
             <section className="col-span-3 ">
               <div className="flex justify-end mt-[100px]">
                 <div className="max-w-[450px]">
                   <h1 className="font-bold text-xl montserrat">
-                    Short on time but clear about your goal?
+                    Short on time but clear about your goal? Intense TOEFL is right up your alley.
                   </h1>
                   <h5>
                    TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.
@@ -61,14 +74,8 @@ You’ll work intensively across all four skills, receive detailed, actionable f
             </section>
             <section className="col-span-3"></section>
 
-            {/*  */}
-
             
             <section className="col-span-3"></section>
-
-            {/*  */}
-
-            {/*  */}
           </section>
         </section>
 
@@ -94,7 +101,7 @@ You’ll work intensively across all four skills, receive detailed, actionable f
                 <div className="flex justify-start ">
                   <div className="max-w-[450px]">
                     <h1 className="font-bold text-[21px] montserrat">
-                      Short on time but clear about your goal?
+                      Short on time but clear about your goal? Intense TOEFL is right up your alley.
                     </h1>
                     <h5>
                     TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.
@@ -111,13 +118,8 @@ You’ll work intensively across all four skills, receive detailed, actionable f
               </section>
             </section>
           </div>
-
-          {/*  */}
-
-          {/*  */}
-
          
-        </section>
+        </section> */}
 
         <section>
           <section className="lg:py-20 lg:px-20 text-xl  text-center pt-20 pb-10">
@@ -139,11 +141,11 @@ TOEFL Intense fits the purpose.
                 <h1 className="text-3xl font-bold montserrat">
                   Toefl Intense Training
                 </h1>
-                <p className="pt-5">
+                {/* <p className="pt-5">
                   Our Toefl Intense Training is ideal for intermediate, offering
                   lessons in situational speaking and different accents.Tailored
                   resources fill gaps in grammar and enhance vocabulary.
-                </p>
+                </p> */}
               </div>
               <section className="flex gap-10 pt-5">
                 <div className="">

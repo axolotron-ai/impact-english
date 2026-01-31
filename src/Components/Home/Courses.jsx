@@ -141,7 +141,7 @@ const Courses = () => {
             className="flex items-center order-2 lg:order-1 relative z-[2] "
           >
             <section className="grid gap-5">
-              <h1 className="lg:text-3xl text-2xl font-bold momo">TOEFL prep plan</h1>
+              <h1 className="lg:text-3xl text-2xl font-bold momo">TOEFL Prep-Plan</h1>
               <p className="text-[17px] lg:text-[20px]">
                 Toefl is the right choice if you prefer a fully computer-delivered test. The exam is shorter in duration, assesses integrated language skills  and is available both at test centres and as a Home Edition, offering added flexibility. TOEFL is widely recognised, with over 13,000 universities and institutions worldwide.
               </p>
@@ -197,7 +197,7 @@ const Courses = () => {
             <section className="grid gap-5">
               <h1 className="lg:text-3xl text-2xl font-bold momo">TOEFL Intense</h1>
               <p className="text-[17px] lg:text-[20px]">
-                TOEFL Express is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve. This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.
+                TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve. This program is ideal if you’re operating on tight deadlines for university applications, visa timelines, or retakes. We cut out the noise and focus on what directly impacts your TOEFL score: academic language use, task accuracy, time management, and test execution.
               </p>
               <Link
                 href={"/courses/toefl-express-training"}

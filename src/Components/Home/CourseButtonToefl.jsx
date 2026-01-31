@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import Link from "next/link";
 
 
-export default function CTAButton() {
+export default function CTAButtonToefl() {
   const [ctaData, setCtaData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [animate, setAnimate] = useState(false);
@@ -43,13 +43,13 @@ export default function CTAButton() {
 
   return (
     <>
-    <Link href={"/#courses"}>
+    <Link href={"/courses/toefl-plan-training"}>
       <button
 	  onMouseEnter={handleHover}
 	  onMouseLeave={handleHover}
       className={`bubblyButton ${animate ? 'animate' : ''}`}
     >
-      Achieve Band 7+ Score
+      Achieve 120+ TOEFL
     </button>
     <style jsx>{`
         .bubblyButton {

@@ -71,7 +71,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <h1 className="font-bold">Ph.no</h1>
-                    <p style={{fontFamily:'sans-serif'}}>94209 69000</p>
+                    <p style={{fontFamily:'sans-serif'}}>+91 94209 69000</p>
                   </div>
                 </div>
               </Link>
@@ -94,8 +94,8 @@ const Footer = () => {
                   <div target="_blank" className="">
                     <h1 className="font-bold">Address</h1>
                     <p style={{fontFamily:'sans-serif'}}>
-                      Vasant Valley Complex, 1401/Acacia Near narayana School
-                      Khadakpada, Kalyan West, Mumbai, Maharashtra 421301
+                      901, DREAM AVENUE, NEAR D-Mart, 
+                      Khadakpada Kalyan-West-421301
                     </p>
                   </div>
                 </div>

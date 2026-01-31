@@ -15,7 +15,7 @@ const ToeflPlanCourse = () => {
         </section>
         <section className="lg:px-20 pb-10">
           <h1 className="text-4xl montserrat font-bold">
-            Toefl Pre Plan
+            Toefl Prep-Plan
           </h1>
           <h3 className="lg:text-xl text-[17px] pt-5 text-left ">
             Toefl is the right choice if you prefer a fully computer-delivered test. The exam is shorter in duration, assesses integrated language skills and is available both at test centres and as a Home Edition, offering added flexibility. TOEFL is widely recognised, with over 13,000 universities and institutions worldwide.
@@ -228,11 +228,11 @@ From independent responses to campus-style discussions, we coach you to speak wi
             <div className="">
               <div className="">
                 <h1 className="text-3xl font-bold montserrat">
-                  Toefl Pre Plan Training
+                  Toefl Prep-Plan Training
                 </h1>
-                <p className="pt-5">
+                {/* <p className="pt-5">
                   If your goal is not just to take the TOEFL—but to excel in it—you’re in the right place.
-                </p>
+                </p> */}
               </div>
               <section className="flex gap-10 pt-5">
                 <div className="">

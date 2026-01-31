@@ -39,7 +39,7 @@ const ToeflPlanPayment = () => {
       <div className="flex justify-center">
       <div className="lg:shadow-md lg:rounded-2xl pt-10 lg:p-10 max-w-[1000px]">
         <div className="px-10">
-            <h1 className="text-2xl font-bold text-center py-5 ">Toefl Pre Plan Training Payment</h1>
+            <h1 className="text-2xl font-bold text-center py-5 ">Toefl Prep-Plan Training Payment</h1>
         </div>
         <main className="grid lg:grid-cols-2 pt-10 ">
         <section className="order-2 lg:order-1 p-5">
@@ -59,7 +59,7 @@ const ToeflPlanPayment = () => {
               <div className="p-5">
                 <img src="/cp2.png" alt="" className="w-full rounded-xl" />
               </div>
-              <h1 className="font-bold text-center pb-2">Toefl Pre Plan Training</h1>
+              <h1 className="font-bold text-center pb-2">Toefl Prep-Plan Training</h1>
               <div className=" p-5 pt-0">
                 <div className="flex justify-between">
                   <h1 className="opacity-60">Duration : </h1>

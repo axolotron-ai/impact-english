@@ -15,18 +15,30 @@ const ExpressIeltsCourse = () => {
         </section>
         <section className="lg:px-20 pb-10">
           <h1 className="text-4xl montserrat font-bold">
-            Express Ielts Time line
+            Express IELTS Time line
           </h1>
           <h3 className="lg:text-xl text-[17px] pt-5 text-justify ">
             Express IELTS is effectively designed for candidates who are working with tight university and visa timelines.If you have an intermediate command of English and need focused preparation with measurable results, look no further. This intensive program streamlines the process by targeting exam-specific skills, scoring criteria, and common weaknesses across all four modules.</h3>
         </section>
-        <section className="lg:flex hidden justify-center">
+        <section className="lg:px-20 pb-10 max-w-[700px] mt-[60px]">
+          <h1 className="font-bold text-xl montserrat">
+            Short on time but serious about your IELTS score? Express IELTS is right up your alley
+          </h1>
+          <h5 className="h-fit">
+            Express IELTS is effectively designed for candidates who are working with tight university and visa timelines.If you have an intermediate command of English and need focused preparation with measurable results, look no further.
+
+This intensive program streamlines the process by targeting exam-specific skills, scoring criteria, and common weaknesses across all four modules.
+
+ You’ll work on high-impact strategies, receive detailed, actionable feedback, and take full-length simulation mock tests to achieve the target band score.
+            </h5>
+        </section>
+        {/* <section className="lg:px-20 pb-10">
           <section className="grid grid-cols-7 h-fit  overflow-y-hidden">
             <section className="col-span-3 ">
               <div className="flex justify-end mt-[100px]">
                 <div className="max-w-[450px]">
                   <h1 className="font-bold text-xl montserrat">
-                    Express IELTS is right up your alley
+                    Short on time but serious about your IELTS score? Express IELTS is right up your alley
                   </h1>
                   <h5>
                    Express IELTS is effectively designed for candidates who are working with tight university and visa timelines.If you have an intermediate command of English and need focused preparation with measurable results, look no further.
@@ -62,14 +74,8 @@ This intensive program streamlines the process by targeting exam-specific skills
             </section>
             <section className="col-span-3"></section>
 
-            {/*  */}
-
             
             <section className="col-span-3"></section>
-
-            {/*  */}
-
-            {/*  */}
           </section>
         </section>
 
@@ -90,12 +96,12 @@ This intensive program streamlines the process by targeting exam-specific skills
               </div>
             </section>
 
-            <section className="pl-2">
+            <section className="">
               <section className=" border-l-4 bordered pl-5">
                 <div className="flex justify-start ">
                   <div className="max-w-[450px]">
                     <h1 className="font-bold text-[21px] montserrat">
-                      Express IELTS is right up your alley
+                      Short on time but serious about your IELTS score? Express IELTS is right up your alley
                     </h1>
                     <h5>
                     Express IELTS is effectively designed for candidates who are working with tight university and visa timelines.If you have an intermediate command of English and need focused preparation with measurable results, look no further.
@@ -114,15 +120,10 @@ This intensive program streamlines the process by targeting exam-specific skills
             </section>
           </div>
 
-          {/*  */}
-
-          {/*  */}
-
-         
-        </section>
+        </section> */}
 
         <section>
-          <section className="lg:py-20 lg:px-20 text-xl  text-center pt-20 pb-10">
+          <section className="lg:py-20 lg:px-20 text-xl  text-center pt-10 pb-10">
             <h4 className="font-bold">
               We ensure comprehensive coverage of all Express Ielts components
               with specific focus on each skill, providing students with
@@ -141,13 +142,13 @@ This intensive program streamlines the process by targeting exam-specific skills
             <div className="">
               <div className="">
                 <h1 className="text-3xl font-bold montserrat">
-                  Express Ielts Training
+                  Express IELTS Training
                 </h1>
-                <p className="pt-5">
-                  Our Express Ielts Training is ideal for intermediate, offering
+                {/* <p className="pt-5">
+                  Our Express IELTS Training is ideal for intermediate, offering
                   lessons in situational speaking and different accents.Tailored
                   resources fill gaps in grammar and enhance vocabulary.
-                </p>
+                </p> */}
               </div>
               <section className="flex gap-10 pt-5">
                 <div className="">
