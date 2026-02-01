@@ -35,9 +35,9 @@ const Testimonials = () => {
         <motion.div  initial={{ opacity: 0, scale: 0.9, x: 0, y: -100 }}
             whileInView={{ opacity: 1, scale: 1, x: 0, y: 0 }}
             transition={{ type: "spring", stiffness: 200, damping: 50 }} className="text-center py-5">
-          <h1 className="square-peg text-6xl">Testimonials</h1>
+          <h1 className="square-peg text-4xl">Testimonials</h1>
           <div className="flex justify-center">
-            <p className="max-w-[500px]">
+            <p className="max-w-[500px] p-2">
               Here are some testimonials from our students about IMPACT ENGLISH
               Institute
             </p>

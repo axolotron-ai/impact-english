@@ -37,7 +37,7 @@ const Contact = () => {
               className="p-[30px]"
             >
               <div className="">
-                <h1 className="square-peg text-7xl text-red-600">Contact</h1>
+                <h1 className="square-peg text-6xl text-red-600">Contact</h1>
                 <img src="/redline.png" alt="" className="w-[120px] ml-10" />
               </div>
               <div className="">
@@ -163,7 +163,7 @@ const Contact = () => {
             </form>
           </div>
         </motion.div>
-        <div className="flex lg:hidden gap-5 pt-[140px] px-8">
+        <div className="flex lg:hidden pt-[140px] px-4">
           <div className="">
             <img src="/greenline.png" alt="" className="h-[230px]" />
           </div>
