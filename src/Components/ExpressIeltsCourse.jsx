@@ -22,7 +22,10 @@ const ExpressIeltsCourse = () => {
         </section>
         <section className="lg:px-20 pb-10 max-w-[700px] mt-[60px]">
           <h1 className="font-bold text-xl montserrat">
-            Short on time but serious about your IELTS score? Express IELTS is right up your alley
+            Short on time but serious about your IELTS score?
+          </h1>
+          <h1 className="font-bold text-xl montserrat">
+            Express IELTS is right up your alley
           </h1>
           <h5 className="h-fit">
             Express IELTS is effectively designed for candidates who are working with tight university and visa timelines.If you have an intermediate command of English and need focused preparation with measurable results, look no further.

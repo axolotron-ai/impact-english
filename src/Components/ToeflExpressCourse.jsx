@@ -22,7 +22,10 @@ const ToeflExpressCourse = () => {
         </section>
          <section className="lg:px-20 pb-10 max-w-[700px] mt-[60px]">
           <h1 className="font-bold text-xl montserrat">
-            Short on time but clear about your goal? Intense TOEFL is right up your alley.
+            Short on time but clear about your goal?
+          </h1>
+          <h1 className="font-bold text-xl montserrat">
+            Intense TOEFL is right up your alley.
           </h1>
           <h5 className="h-fit">
            TOEFL Intense is designed for learners who already have a working command of English and need focused, efficient preparation—not a long learning curve.

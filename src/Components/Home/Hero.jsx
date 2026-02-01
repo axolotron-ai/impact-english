@@ -142,7 +142,19 @@ const Hero = () => {
               </Link>
               <Link href={'/courses/toefl-plan-training'}>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">TOEFL IELTS</h1>
+                <h1 className="font-bold text-2xl montserrat">TOEFL</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/toefl-express-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">TOEFL INTENSE</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/express-ielts-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">EXPRESS IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               </Link>
@@ -170,7 +182,19 @@ const Hero = () => {
               </Link>
               <Link href={'/courses/toefl-plan-training'}>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">TOEFL IELTS</h1>
+                <h1 className="font-bold text-2xl montserrat">TOEFL</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+               <Link href={'/courses/toefl-express-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">TOEFL INTENSE</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/express-ielts-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">EXPRESS IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               </Link>
@@ -198,7 +222,19 @@ const Hero = () => {
               </Link>
               <Link href={'/courses/toefl-plan-training'}>
               <div className="px-[70px] py-5">
-                <h1 className="font-bold text-2xl montserrat">TOEFL IELTS</h1>
+                <h1 className="font-bold text-2xl montserrat">TOEFL</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+               <Link href={'/courses/toefl-express-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">TOEFL INTENSE</h1>
+                <p className="opacity-60">Coaching</p>
+              </div>
+              </Link>
+              <Link href={'/courses/express-ielts-training'}>
+              <div className="px-[70px] py-5">
+                <h1 className="font-bold text-2xl montserrat">EXPRESS IELTS</h1>
                 <p className="opacity-60">Coaching</p>
               </div>
               </Link>

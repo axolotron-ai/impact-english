@@ -22,8 +22,8 @@ const IeltsAcademicTraining = () => {
           <h3 className="lg:text-xl text-[17px] pt-5 text-justify ">
             The Academic IELTS is designed for those seeking higher education or
             professional registration in English-speaking environments. It
-            evaluates the four key language skills: listening, reading, writing,
-            and speaking. This test ensures candidates are prepared for academic
+            evaluates the four key language skills: Listening, Reading, Writing,
+            and Speaking. This test ensures candidates are prepared for academic
             study with rigorous assessments tailored to university-level English
             proficiency.
           </h3>

@@ -49,7 +49,7 @@ export default function CTAButtonToefl() {
 	  onMouseLeave={handleHover}
       className={`bubblyButton ${animate ? 'animate' : ''}`}
     >
-      Achieve 120+ TOEFL
+      Achieve 100+ on TOEFL
     </button>
     <style jsx>{`
         .bubblyButton {

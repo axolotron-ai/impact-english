@@ -20,7 +20,7 @@ const IeltsGeneralTraining = () => {
           <h3 className="lg:text-xl text-[17px] pt-5 text-justify ">
             Our General IELTS Course is a comprehensive 12-week program designed
             to help you achieve your desired IELTS score. You'll enhance your
-            listening, reading, writing, and speaking skills through focused
+            Listening, Reading, Writing, and Speaking skills through focused
             practice and personalized feedback. The course includes full-length
             practice tests, strategies for each test component, and ongoing
             support. With flexible scheduling options, we ensure you’re
