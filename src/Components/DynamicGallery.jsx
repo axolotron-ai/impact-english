@@ -43,7 +43,7 @@ const DynamicGallery = ({ apiPath = "/api/gallery", embedded = false }) => {
   }
 
   // Relative path → prepend backend host
-  return `${host}/uploads${url.startsWith('/') ? '' : '/'}${url}`;
+  return `/uploads${url.startsWith('/') ? '' : '/'}${url}`;
 };
 
 
