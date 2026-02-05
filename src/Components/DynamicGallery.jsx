@@ -9,13 +9,14 @@ const DynamicGallery = ({ apiPath = "/api/gallery", embedded = false }) => {
   const [error, setError] = useState(null);
   const [show, setShow] = useState(embedded);
   const [selectedImage, setSelectedImage] = useState(null);
-  const host = 'http://72.61.239.175:8000'; // Adjust based on your backend server
+  // const host = 'http://72.61.239.175:8000'; // Adjust based on your backend server
+  const host = 'https://72.61.239.175:8000'; // Adjust based on your backend server
   useEffect(() => {
     let mounted = true;
     const fetchData = async () => {
       setLoading(true);
       try {
-        const res = await fetch(`${host}${apiPath}`);
+        const res = await fetch(`${apiPath}`);
         const json = await res.json();
         if (!res.ok) throw new Error(json?.message || "Failed to load gallery");
         // Expecting: { success: true, results: [ { album: 'Students', photos: [ { img_url: '' } ] } ] }

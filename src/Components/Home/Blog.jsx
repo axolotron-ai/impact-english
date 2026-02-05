@@ -14,7 +14,7 @@ const Blog = () => {
     const fetchBlogs = async () => {
       setLoading(true);
       try {
-        const res = await fetch(`${host}/api/blogs`);
+        const res = await fetch(`/api/blogs`);
         const data = await res.json();
         if (!res.ok) throw new Error(data?.message || "Failed to load blogs");
         // Filter only published blogs (extra safety check)

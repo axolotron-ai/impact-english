@@ -13,7 +13,7 @@ export default function CTAButton() {
   const router = useRouter();
 
   useEffect(() => {
-    fetch('http://72.61.239.175:8000/api/cta/active')
+    fetch('/api/cta/active')
       .then((response) => response.json())
       .then((result) => {
         if (result.success && result.data) {
